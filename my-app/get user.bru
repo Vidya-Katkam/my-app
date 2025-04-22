@@ -1,0 +1,18 @@
+meta {
+  name: get user
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:5001/signin
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "email": "vidyakatkam127@gmail.com",
+    "password": "Vidya@2004"
+  }
+}

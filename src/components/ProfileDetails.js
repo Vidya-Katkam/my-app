@@ -18,8 +18,7 @@ const ProfileDetails=() => {
           setFullname(fullName);
           setEmail(userEmail);
           setPhone(phoneNo);
-          //axios.post('http://localhost:5001/api/getUser', { email: userEmail })
-          axios.post('https://user-profile-backend.onrender.com/api/getUser', { email: userEmail })
+          axios.post('http://localhost:5001/api/getUser', { email: userEmail })
 
             .then((res) => {
               const data = res.data;
@@ -33,7 +32,7 @@ const ProfileDetails=() => {
         };
         
       }, []);
-    return ( 
+      return ( 
         <form>
         <div className="profile-header">
             <h1>  </h1>

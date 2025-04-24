@@ -31,7 +31,7 @@ const SignIn = () => {
   return (
     <>
       <form onSubmit={handleSignIn}>
-        <h2>Sign In</h2>
+        <h2>WELCOME</h2>
         <input
           type="email"
           value={email}
@@ -58,5 +58,5 @@ const SignIn = () => {
     </>
   );
 };
-
+//njC!GjaWN7U?EF4q#?3uJ
 export default SignIn;

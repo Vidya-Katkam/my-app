@@ -78,6 +78,7 @@ const UpdateProfile = () => {
       /><br/>
 
       <button type="submit">Update Profile</button>
+      <a href='/profile'>Back to profile page</a>
     </form>
   );
 };
